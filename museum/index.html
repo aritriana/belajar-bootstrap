@@ -119,12 +119,12 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(function){
-        $(document).scroll(function){
-          let $nav = $('#navbar')
+      $(function() {
+        $(document).scroll(function() {
+          let $nav = $('#navbar');
           $nav.toggleClass('scrolled',$(this).scrollTop() > $nav.height());
-        }
-      }
+        });
+      });
     </script>
   </body>
 </html>
